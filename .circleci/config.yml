@@ -379,7 +379,7 @@ jobs:
 
   cleanup:
     docker:
-      - image: amazon/aws-cli: latest
+      - image: amazon/aws-cli:latest
     steps:
       - checkout
       - run:
