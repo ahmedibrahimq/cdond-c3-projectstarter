@@ -353,7 +353,7 @@ cloudfront-update:
     docker:
       - image: circleci/node:13.8.0
     steps:
-       checkout
+      - checkout
       - run:
           name: Install dependencies
           command: |
